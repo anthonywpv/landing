@@ -1,131 +1,531 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-    <title>landing</title>
-  </head>
-  <body>
+<html lang="es"> <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="Agencia de viajes profesional en Ecuador. Viaja seguro y sin preocupaciones." />
+	<meta name="keywords" content="ecuador, viajes, turismo, agencia, galapagos, andes" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/flatpickr.min.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>DAWN &mdash; Viaja Seguro por Ecuador</title>
+</head>
+<body>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav mt-3">
+		<div class="container">
+
+			<div class="site-navigation">
+				<div class="row">
+					<div class="col-6 col-lg-3">
+						<a href="index.html" class="logo m-0 float-start">DAWN</a>
+					</div>
+					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
+						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
+							<li class="active"><a href="index.html">Inicio</a></li>
+							<li><a href="about.html">Nosotros</a></li>
+							<li class="has-children">
+								<a href="#">Destinos</a>
+								<ul class="dropdown">
+									<li><a href="#">Costa</a></li>
+									<li><a href="#">Sierra</a></li>
+									<li><a href="#">Oriente</a></li>
+									<li><a href="#">Galápagos</a></li>
+								</ul>
+							</li>
+							<li><a href="services.html">Servicios</a></li>
+							<li><a href="blog.html">Blog</a></li>
+
+						</ul>
+					</div>
+					<div class="col-6 col-lg-3 text-lg-end">
+						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
+							<li class="cta-button"><a href="contact.html">Contáctanos</a></li>
+						</ul>
+
+						<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	
+	<div class="hero overlay">
+
+		<div class="img-bg rellax">
+			<img src="images/hero_1.jpg" alt="Paisaje de Ecuador" class="img-fluid">
+		</div>
+
+		<div class="container">
+			<div class="row align-items-center justify-content-start">
+				<div class="col-lg-6"> <h1 class="heading" data-aos="fade-up">Ecuador te espera: Viaja con seguridad y confianza</h1>
+					<p class="mb-5" data-aos="fade-up">Olvídate de la informalidad. En DAWN gestionamos tus reservas con respaldo legal, eficiencia y la calidez que mereces para explorar los 4 mundos de nuestro país.</p>
+
+					<div data-aos="fade-up">
+						<a href="https://www.youtube.com/watch?v=example" class="play-button align-items-center d-flex glightbox3" >
+							<span class="icon-button me-3">
+								<span class="icon-play"></span>
+							</span>
+							<span class="caption">Ver Video Promocional</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
+	<div class="section section-2">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 order-lg-2 mb-5 mb-lg-0">
+					<div class="image-stack mb-5 mb-lg-0">
+						<div class="image-stack__item image-stack__item--bottom" data-aos="fade-up"  >
+							<img src="images/img_v_1.jpg" alt="Viajero feliz" class="img-fluid rellax ">
+						</div>
+						<div class="image-stack__item image-stack__item--top" data-aos="fade-up" data-aos-delay="100"  data-rellax-percentage="0.5">
+							<img src="images/img_v_2.jpg" alt="Cultura local" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-4 order-lg-1">
+
+					<div>
+						<h2 class="heading mb-3" data-aos="fade-up" data-aos-delay="100">Profesionalizando tu experiencia de viaje</h2>
+
+						<p data-aos="fade-up" data-aos-delay="200">En un mercado saturado de ofertas informales, DAWN surge como tu aliado estratégico. No solo vendemos pasajes, creamos experiencias garantizadas.</p>
+
+						<p data-aos="fade-up" data-aos-delay="300">Centralizamos la mejor oferta de paquetes turísticos nacionales, brindándote la tranquilidad de que cada detalle de tu aventura está respaldado por una agencia legalmente constituida.</p>
+
+						<p class="my-4" data-aos="fade-up" data-aos-delay="300"><a href="about.html" class="btn btn-primary">Leer más sobre nosotros</a></p>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>		
+	</div>
+
+	<div class="section service-section-1">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<div class="heading-content" data-aos="fade-up">
+						<h2>Nuestros <span class="d-block">Servicios</span></h2>
+						<p>Soluciones integrales para viajeros nacionales e internacionales que buscan calidad.</p>
+						<p class="my-4" data-aos="fade-up" data-aos-delay="300"><a href="services.html" class="btn btn-primary">Ver Todos</a></p>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="row">
+						<div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up"  data-aos-delay="100">
+							<div class="service-1">
+								<span class="icon">
+									<img src="images/svg/01.svg" alt="Icono Turismo" class="img-fluid">
+								</span>
+								<div>
+									<h3>Turismo Nacional</h3>
+									<p>Rutas exclusivas por la Costa, Sierra, Oriente y Región Insular.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up"  data-aos-delay="200">
+							<div class="service-1">
+								<span class="icon">
+									<img src="images/svg/02.svg" alt="Icono Paquetes" class="img-fluid">
+								</span>
+								<div>
+									<h3>Paquetes "Todo Incluido"</h3>
+									<p>Gestión completa de transporte, hospedaje y alimentación.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up"  data-aos-delay="300">
+							<div class="service-1">
+								<span class="icon">
+									<img src="images/svg/03.svg" alt="Icono Seguro" class="img-fluid">
+								</span>
+								<div>
+									<h3>Seguro de Viaje</h3>
+									<p>Tu seguridad es nuestra prioridad. Cobertura médica y legal.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up"  data-aos-delay="400">
+							<div class="service-1">
+								<span class="icon">
+									<img src="images/svg/04.svg" alt="Icono VIP" class="img-fluid">
+								</span>
+								<div>
+									<h3>Gestión Corporativa</h3>
+									<p>Soluciones de viaje eficientes para empresas y ejecutivos.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section section-3" data-aos="fade-up" data-aos-delay="100">
+		<div class="container">
+			<div class="row align-items-center justify-content-between  mb-5">
+				<div class="col-lg-5" data-aos="fade-up">
+					<h2 class="heading mb-3">Descubre cientos de destinos en Ecuador</h2>
+					<p>Desde las playas de Manabí hasta las cumbres del Chimborazo. Explora nuestra selección de destinos verificados.</p>
+				</div>		
+				<div class="col-lg-5 text-md-end" data-aos="fade-up" data-aos-delay="100">
+					<div id="destination-controls">
+						<span class="prev me-3" data-controls="prev">
+							<span class="icon-chevron-left"></span>
+
+						</span>
+						<span class="next" data-controls="next">
+							<span class="icon-chevron-right"></span>
+
+						</span>
+					</div>
+				</div>
+			</div>	
+
+		</div>		
+
+		<div class="destination-slider-wrap">
+			<div class="destination-slider">
+				
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/img-1.jpg" alt="Islas Galápagos" class="img-fluid">
+						<div class="price">$1200</div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Islas Galápagos</a></h3>
+						<span class="meta">Región Insular, Ecuador</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/img-2.jpg" alt="Baños de Agua Santa" class="img-fluid">
+						<div class="price">$150</div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Baños de Agua Santa</a></h3>
+						<span class="meta">Tungurahua, Ecuador</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/img-3.jpg" alt="Volcán Cotopaxi" class="img-fluid">
+						<div class="price">$80</div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Parque Nacional Cotopaxi</a></h3>
+						<span class="meta">Cotopaxi, Ecuador</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/img-4.jpg" alt="Cuenca" class="img-fluid">
+						<div class="price">$200</div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Centro Histórico de Cuenca</a></h3>
+						<span class="meta">Azuay, Ecuador</span>
+					</div>
+				</div>
+				
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/img-5.jpg" alt="Montañita" class="img-fluid">
+						<div class="price">$180</div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Playa de Montañita</a></h3>
+						<span class="meta">Santa Elena, Ecuador</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-lg-5 mb-4 mb-lg-0 order-lg-2" data-aos="fade-up">
+					<img src="images/img-1.jpg" alt="Grupo de amigos" class="img-fluid">
+				</div>
+				<div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+					<h2 class="heading mb-4">Memorias dulces que cobran vida</h2>
+					<p>En DAWN entendemos que un viaje no es solo moverse de un lugar a otro, es crear recuerdos. Por eso nos encargamos de toda la logística compleja para que tú solo disfrutes.</p>
+					<p>Evita estafas y malos ratos con agencias no reguladas. Nosotros te ofrecemos respaldo y atención personalizada en cada paso del camino.</p>
+					<p class="my-4" data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-primary">Agenda tu cita</a></p>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="section bg-light">
+		<h2 class="heading mb-5 text-center">Testimonios de Clientes</h2>
+
+		<div class="text-center mb-5">
+			<div id="prevnext-testimonial">
+				<span class="prev me-3" data-controls="prev">
+					<span class="icon-chevron-left"></span>
+				</span>
+				<span class="next" data-controls="next">
+					<span class="icon-chevron-right"></span>
+				</span>
+			</div>
+		</div>
+
+		<div class="wide-slider-testimonial-wrap">
+			<div class="wide-slider-testimonial">
+				<div class="item">
+					<blockquote class="block-testimonial">
+						<div class="author">
+							<img src="images/person_1.jpg" alt="Cliente 1">
+							<h3>Juan Pérez</h3>
+							<p class="position mb-5">Viajero Frecuente, Quito</p>
+						</div>
+						<p>
+							<div class="quote">&ldquo;</div>
+						&ldquo;Increíble servicio. Me sentí seguro en todo momento durante mi viaje a la Amazonía. DAWN se encargó de todo.&rdquo;</p>
+					</blockquote>
+				</div>
+
+				<div class="item">
+					<blockquote class="block-testimonial">
+						<div class="author">
+							<img src="images/person_2.jpg" alt="Cliente 2">
+							<h3>María Fernanda</h3>
+							<p class="position mb-5">Empresaria, Guayaquil</p>
+						</div>
+						<p>
+							<div class="quote">&ldquo;</div>
+						&ldquo;La gestión corporativa para el viaje de mi equipo fue impecable. Facturación clara y servicio profesional. Muy recomendados.&rdquo;</p>
+					</blockquote>
+				</div>
+
+				<div class="item">
+					<blockquote class="block-testimonial">
+						<div class="author">
+							<img src="images/person_3.jpg" alt="Cliente 3">
+							<h3>Carlos Andrade</h3>
+							<p class="position mb-5">Turista, Cuenca</p>
+						</div>
+						<p>
+							<div class="quote">&ldquo;</div>
+						&ldquo;Tenía miedo de reservar por internet debido a tantas estafas, pero DAWN me dio confianza y cumplieron con todo lo prometido para mis vacaciones en Galápagos.&rdquo;</p>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+	<div class="section">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-lg-5 mb-4 mb-lg-0">
+					<img src="images/img_v_2.jpg" alt="Consultas" class="img-fluid">
+				</div>
+				<div class="col-lg-5 mt-4 mt-lg-0"  data-aos="fade-up" data-aos-delay="100">
+
+					<h2 class="heading mb-5">Preguntas <br> Frecuentes</h2>
+
+					<div class="custom-accordion" id="accordion_1">
+						<div class="accordion-item">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">¿Cómo reservo un paquete turístico?</button>
+							</h2>
+
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion_1">
+								<div class="accordion-body">
+									Puedes reservar directamente a través de nuestro sitio web, contactarnos por WhatsApp o visitarnos en nuestras oficinas. Un asesor te guiará en todo el proceso.
+								</div>
+							</div>
+						</div> 
+
+						<div class="accordion-item">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">¿Son una agencia legalmente constituida?</button>
+							</h2>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion_1">
+								<div class="accordion-body">
+									Sí, DAWN cuenta con todos los permisos de funcionamiento y registros turísticos exigidos por la ley ecuatoriana, garantizando tu seguridad y respaldo.
+								</div>
+							</div>
+						</div> 
+						
+						<div class="accordion-item">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">¿Qué métodos de pago aceptan?</button>
+							</h2>
+
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion_1">
+								<div class="accordion-body">
+									Aceptamos todas las tarjetas de crédito, transferencias bancarias locales y pagos en efectivo en nuestras oficinas.
+								</div>
+							</div>
+						</div> 
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-    </a>
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <li>
-          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+	<div class="section">
+		<div class="container">
 
- <div id="toast-interactive"
-         class="hidden fixed right-5 bottom-5 flex items-center w-full max-w-xs p-4 space-x-4 text-gray-500 bg-white divide-x divide-gray-200 rounded-lg shadow-sm dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800"
-         role="alert">
-         <div class="flex">
+			<div class="row">
+				<div class="col-12"data-aos="fade-up" data-aos-delay="0">
+					<h2 class="heading mb-5">Últimas Noticias</h2>
+				</div>
+			</div>
+			<div class="row align-items-stretch">
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+					<div class="media-entry">
+						<a href="#">
+							<img src="images/gal_1.jpg" alt="Imagen Blog" class="img-fluid">
+						</a>
+						<div class="bg-white m-body">
+							<span class="date">20 Mayo, 2024</span>
+							<h3><a href="#">La mejor época para visitar Galápagos</a></h3>
+							<p>Descubre cuándo viajar para ver la mayor cantidad de fauna marina.</p>
 
-             <!-- Content -->
-             <div class="ms-3 text-sm font-normal">
-                 <span class="mb-1 text-sm font-semibold text-gray-900 dark:text-white">Suscríbete ahora</span>
-                 <div class="mb-2">Suscríbete ahora para obtener beneficios de cliente premium y pro.</div>
-                 <div class="grid grid-cols-2 gap-2">
-                 <div>
-                     <a href="#"
-                     class="inline-flex justify-center w-full px-2 py-1.5 text-xs font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800">Sí, quiero</a>
-                 </div>
-                 <div>
-                     <a href="#"
-                     class="inline-flex justify-center w-full px-2 py-1.5 text-xs font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-600 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">No ahora</a>
-                 </div>
-                 </div>
-             </div>
+							<a href="single.html" class="more d-flex align-items-center float-start">
+								<span class="label">Leer más</span>
+								<span class="arrow"><span class="icon-keyboard_arrow_right"></span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+					<div class="media-entry">
+						<a href="#">
+							<img src="images/gal_2.jpg" alt="Imagen Blog" class="img-fluid">
+						</a>
+						<div class="bg-white m-body">
+							<span class="date">15 Mayo, 2024</span>
+							<h3><a href="#">Ruta de los Volcanes: Guía completa</a></h3>
+							<p>Consejos de seguridad y equipo necesario para el trekking en altura.</p>
 
-             <!-- Close button -->
-             <button type="button"
-                 class="ms-auto -mx-1.5 -my-1.5 p-1.5 inline-flex items-center justify-center w-8 h-8 text-gray-400 bg-white rounded-lg hover:text-gray-900 hover:bg-gray-100 focus:ring-2 focus:ring-gray-300 dark:text-gray-500 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700"
-                 data-dismiss-target="#toast-interactive" aria-label="Close">
-                 <span class="sr-only">Close</span>
-                 <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" aria-hidden="true">
-                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                     d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                 </svg>
-             </button>
-         </div>
-     </div>
+							<a href="single.html" class="more d-flex align-items-center float-start">
+								<span class="label">Leer más</span>
+								<span class="arrow"><span class="icon-keyboard_arrow_right"></span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+                </div>	
+		</div>		
+	</div>
 
-   <main class="bg-slate-50">
+	<div class="site-footer">
+		<div class="container">
 
-      <div id="container-01" class="mx-auto px-4 py-20 text-center">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="widget">
+						<h3>Sobre DAWN<span class="text-primary">.</span> </h3>
+						<p>Profesionalizando el turismo en Ecuador. Somos tu conexión segura con las maravillas de nuestro país, combinando tecnología y calidez humana.</p>
+					</div> 
+					<div class="widget">
+						<h3>Conecta</h3>
+						<ul class="list-unstyled social">
+							<li><a href="#"><span class="icon-instagram"></span></a></li>
+							<li><a href="#"><span class="icon-twitter"></span></a></li>
+							<li><a href="#"><span class="icon-facebook"></span></a></li>
+							<li><a href="#"><span class="icon-linkedin"></span></a></li>
+						</ul>
+					</div> 
+				</div> 
 
-         <h1 class="text-4xl font-extrabold tracking-tight text-gray-900">Tu presencia digital comienza aquí</h1>
+				<div class="col-lg-2 ml-auto">
+					<div class="widget">
+						<h3>Enlaces</h3>
+						<ul class="list-unstyled float-left links">
+							<li><a href="about.html">Nosotros</a></li>
+							<li><a href="services.html">Servicios</a></li>
+							<li><a href="blog.html">Noticias</a></li>
+							<li><a href="contact.html">Contacto</a></li>
+						</ul>
+					</div> 
+				</div> 
 
-         <p class="mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto">Creamos experiencias web atractivas y rápidas con Tailwind CSS 4.1. Dale vida a tus ideas con un diseño moderno y responsivo.</p>
+				<div class="col-lg-3">
+					<div class="widget">
+						<h3>Contacto</h3>
+						<address>Av. Amazonas y Naciones Unidas, Quito, Ecuador</address>
+						<ul class="list-unstyled links mb-4">
+							<li><a href="tel://59399999999">+593 99 999 9999</a></li>
+							<li><a href="mailto:info@dawn.ec">info@dawn.ec</a></li>
+						</ul>
+					</div> 
+				</div> 
 
-         <div id="container-02">
+			</div> 
 
-            <button id="start" class="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg">Comenzar</button>
+			<div class="row mt-5">
+				<div class="col-12 text-center">
+					<p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. Todos los derechos reservados. &mdash; DAWN Agencia de Viajes.
+					</p>
+				</div>
+			</div> 
+		</div> 
 
-            <button id="demo" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg">Ver demo</button>
+		<div id="overlayer"></div>
+		<div class="loader">
+			<div class="spinner-border text-primary" role="status">
+				<span class="visually-hidden">Cargando...</span>
+			</div>
+		</div>
 
-         </div>
-
-         <div id="container-02" class="mt-8 flex justify-center gap-4">  
-
-         </div>
-
-      </div>
-
-       <section class="bg-white dark:bg-gray-900">
-
-     <div id="container-03" class="px-4 py-8 mx-auto max-w-md md:max-w-xl">
-
-         <div id="container-04" class="grid grid-cols-2 gap-4 md:grid-cols-4">
-
-             <img src="https://placehold.co/50" alt="Imagen 1" class="w-full h-auto rounded">
-
-             <img src="https://placehold.co/50" alt="Imagen 2" class="w-full h-auto rounded">
-
-             <img src="https://placehold.co/50" alt="Imagen 3" class="w-full h-auto rounded">
-
-             <img src="https://placehold.co/50" alt="Imagen 4" class="w-full h-auto rounded">
-
-         </div>
-
-     </div>
-
- </section>
-
-
-   </main>
-   <script type="module" src="/src/js/file01.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-  </body>
-</html>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/navbar.js"></script>
+		<script src="js/counter.js"></script>
+		<script src="js/rellax.js"></script>
+		<script src="js/flatpickr.js"></script>
+		<script src="js/glightbox.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+	</html>
