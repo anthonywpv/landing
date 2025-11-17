@@ -14,57 +14,63 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
+--bs-blue: #A0C4FF; /* Pastel Blue */
+  --bs-indigo: #BDB2FF;
+  --bs-purple: #9BF6FF;
+  --bs-pink: #FFC6FF;
+  --bs-red: #FFADAD;
+  --bs-orange: #FFD6A5; /* Pastel Orange */
+  --bs-yellow: #FDFFB6;
+  --bs-green: #CAFFBF;
   --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
+  --bs-cyan: #9BF6FF;
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #f17945;
-  --bs-secondary: #343661;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  
+  /* COLORES PRINCIPALES DE LA MARCA - CAMBIADOS */
+  --bs-primary: #FFB7B2; /* Coral Pastel Suave */
+  --bs-secondary: #7895B2; /* Azul Grisáceo Suave (para texto/títulos) */
+  
+  --bs-success: #CAFFBF;
+  --bs-info: #9BF6FF;
+  --bs-warning: #FDFFB6;
+  --bs-danger: #FFADAD;
+  --bs-light: #FDFBF7; /* Blanco Hueso muy suave para fondos */
   --bs-dark: #212529;
-  --bs-primary-rgb: 241, 121, 69;
-  --bs-secondary-rgb: 52, 54, 97;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  
   --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff; }
+  --bs-body-color: #555; 
+  --bs-body-bg: #fff;
+}
+
+a { color: var(--bs-secondary); }
+a:hover { color: var(--bs-primary); }
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.btn-primary:hover {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+}
+.text-primary { color: var(--bs-primary) !important; }
+.bg-primary { background-color: var(--bs-primary) !important; }
+.bg-light { background-color: var(--bs-light) !important; }
+
+/* Corrección para centrar testimonios si son pocos */
+.wide-slider-testimonial {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
 
 *,
 *::before,
